@@ -1,0 +1,8 @@
+inherit rubygem
+
+NAME="ruby-jbuilder"
+VERSION=1.0.2
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby JSON Builder extension"
+DESCRIPTION="Create JSON structures via a Builder-style DSL"
