@@ -1,8 +1,14 @@
 inherit rubygem
 
 NAME="ruby-jbuilder"
-VERSION=1.5.0
+VERSION=1.5.3
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby JSON Builder extension"
 DESCRIPTION="Create JSON structures via a Builder-style DSL"
+
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_jbuilder_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_jbuilder_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
