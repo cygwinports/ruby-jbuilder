@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-jbuilder"
-VERSION=2.6.4
+VERSION=2.7.0
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby JSON Builder extension"
